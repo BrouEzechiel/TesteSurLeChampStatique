@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Personne {
+public class Personne {
+    public static int nbInstances;
+    public int nbLocal;
+    public Personne(){
+        nbInstances++;
+        nbLocal++;
+    }
 }
